@@ -21,4 +21,9 @@ and launch a Jupyter notebook interface in your browser with:
 
 `jupyter notebook`.
 
-(TBD: try to get installation instructions in one terminal command. Provide support for Windows, and possibly Anaconda GUI installation).
+(
+TBD:
+- try to get installation instructions in one terminal command
+- include package version numbers
+- Provide support for Windows, and possibly Anaconda GUI installation
+)
