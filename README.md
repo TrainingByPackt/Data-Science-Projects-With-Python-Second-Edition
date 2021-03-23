@@ -12,7 +12,7 @@ It is recommended to create an environment in Anaconda to do the exercises and a
 
 `conda create -n dspwp2 python=3.8.2 jupyter=1.0.0 pandas=1.2.1 scikit-learn=0.23.2 numpy=1.19.2 matplotlib=3.3.2 seaborn=0.11.1 python-graphviz=0.15 xlrd=2.0.1`
 
-Type 'y' and <Enter> when prompted.
+Type 'y' and [Enter] when prompted.
 
 2. Activate the environment:
 
@@ -22,7 +22,7 @@ Type 'y' and <Enter> when prompted.
 
 `conda install -c conda-forge xgboost=1.3.0 shap=0.37.0`
 
-Type 'y' and <Enter> when prompted.
+Type 'y' and [Enter] when prompted.
 
 4. You are ready to use the environment. To deactivate it when finished:
 
