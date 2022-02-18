@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+  anaconda:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    environment:
+      uid: ${UID}
+    user: ${UID}
+    working_dir: /opt/notebooks
+    ports:
+      - 8888:8888
+    volumes:
+      - ./:/opt/notebooks
+    command: ["jupyter", "notebook", "--notebook-dir=/opt/notebooks", "--ip='*'", "--port=8888", "--no-browser", "--allow-root"]

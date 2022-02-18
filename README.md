@@ -27,3 +27,12 @@ Type 'y' and [Enter] when prompted.
 4. You are ready to use the environment. To deactivate it when finished:
 
 `conda deactivate`
+
+
+# Running with Docker Container
+
+1. Run Docker Compose up to build an image and start the container
+
+`docker-compose up`
+
+2. Access in your browser the address http://127.0.0.1:8888/?token=[put-your-code-here]
