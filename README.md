@@ -33,6 +33,4 @@ Type 'y' and [Enter] when prompted.
 
 1. Run Docker Compose up to build an image and start the container
 
-`docker-compose up`
-
-2. Access in your browser the address http://127.0.0.1:8888/?token=[put-your-code-here]
+`docker run -it --rm -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter/datascience-notebook:b418b67c225b`
